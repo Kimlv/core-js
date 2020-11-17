@@ -19,12 +19,9 @@ module.exports = {
         'core-js-pure': resolve(__dirname, './packages/core-js-pure'),
       },
     },
-    node: {
-      global: false,
-      process: false,
-      setImmediate: false,
-    },
-    stats: false,
+    node: false,
+    target: ['web', 'es3'],
+    stats: 'errors-warnings',
     output: {
       path: resolve(__dirname, './tests/bundles'),
     },
