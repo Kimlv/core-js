@@ -1362,8 +1362,6 @@ const data = {
   },
   'esnext.map.update': {
   },
-  'esnext.map.upsert': {
-  },
   'esnext.math.clamp': {
   },
   'esnext.math.deg-per-rad': {
@@ -1488,8 +1486,6 @@ const data = {
   'esnext.weak-map.of': {
   },
   'esnext.weak-map.emplace': {
-  },
-  'esnext.weak-map.upsert': {
   },
   'esnext.weak-set.add-all': {
   },
