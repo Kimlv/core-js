@@ -306,7 +306,6 @@ for (const _PATH of ['../packages/core-js-pure', '../packages/core-js']) {
   ok(load('features/symbol/async-iterator'));
   ok(load('features/symbol/observable'));
   ok(load('features/symbol/pattern-match'));
-  ok(load('features/symbol/replace-all'));
   ok(load('features/symbol/async-dispose'));
   ok(load('features/symbol/dispose'));
   ok(typeof load('features/symbol/for') === 'function');
@@ -986,7 +985,6 @@ for (const _PATH of ['../packages/core-js-pure', '../packages/core-js']) {
   load('proposals/string-at');
   load('proposals/string-code-points');
   load('proposals/string-match-all');
-  load('proposals/string-replace-all');
   load('proposals/using-statement');
   load('proposals/url');
   load('proposals');

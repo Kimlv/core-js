@@ -1478,7 +1478,6 @@ const data = {
   },
   // TODO: Remove from `core-js@4`
   'esnext.string.match-all': null,
-  'esnext.string.replace-all': null,
   'esnext.symbol.async-dispose': {
   },
   'esnext.symbol.dispose': {
@@ -1486,9 +1485,6 @@ const data = {
   'esnext.symbol.observable': {
   },
   'esnext.symbol.pattern-match': {
-  },
-  // TODO: Remove from `core-js@4`
-  'esnext.symbol.replace-all': {
   },
   'esnext.typed-array.at': {
   },
@@ -1566,6 +1562,5 @@ const data = {
 data['esnext.aggregate-error'] = data['es.aggregate-error'];
 data['esnext.promise.any'] = data['es.promise.any'];
 data['esnext.string.match-all'] = data['es.string.match-all'];
-data['esnext.string.replace-all'] = data['es.string.replace-all'];
 
 module.exports = data;
