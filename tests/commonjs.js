@@ -984,7 +984,6 @@ for (const _PATH of ['../packages/core-js-pure', '../packages/core-js']) {
   load('proposals/set-methods');
   load('proposals/string-at');
   load('proposals/string-code-points');
-  load('proposals/string-match-all');
   load('proposals/using-statement');
   load('proposals/url');
   load('proposals');
