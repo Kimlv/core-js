@@ -55,7 +55,6 @@ for (const _PATH of ['../packages/core-js-pure', '../packages/core-js']) {
   // eslint-disable-next-line prefer-arrow-callback
   ok(Function[load('features/symbol/has-instance')](function () { /* empty */ }));
   ok('bind' in load('features/function'));
-  ok(load('features/array/is-array')([]));
   ok(typeof load('features/array/is-template-object') === 'function');
   ok(Array.isArray(load('features/array/from')('qwe')));
   ok(Array.isArray(load('features/array/of')('q', 'w', 'e')));
@@ -450,7 +449,6 @@ for (const _PATH of ['../packages/core-js-pure', '../packages/core-js']) {
   // eslint-disable-next-line prefer-arrow-callback
   ok(Function[load('stable/symbol/has-instance')](function () { /* empty */ }));
   ok('bind' in load('stable/function'));
-  ok(load('stable/array/is-array')([]));
   ok(Array.isArray(load('stable/array/from')('qwe')));
   ok(Array.isArray(load('stable/array/of')('q', 'w', 'e')));
   ok(load('stable/array/join')('qwe', 1) === 'q1w1e');
@@ -723,7 +721,6 @@ for (const _PATH of ['../packages/core-js-pure', '../packages/core-js']) {
   // eslint-disable-next-line prefer-arrow-callback
   ok(Function[load('es/symbol/has-instance')](function () { /* empty */ }));
   ok('bind' in load('es/function'));
-  ok(load('es/array/is-array')([]));
   ok(Array.isArray(load('es/array/from')('qwe')));
   ok(Array.isArray(load('es/array/of')('q', 'w', 'e')));
   ok(load('es/array/join')('qwe', 1) === 'q1w1e');

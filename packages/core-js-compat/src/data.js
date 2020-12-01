@@ -164,13 +164,6 @@ const data = {
     firefox: '50',
     safari: '11.0',
   },
-  'es.array.is-array': {
-    chrome: '5',
-    firefox: '4',
-    ie: '9',
-    opera: '10.50',
-    safari: '4.0',
-  },
   'es.array.iterator': {
     chrome: '66',
     edge: '15',
