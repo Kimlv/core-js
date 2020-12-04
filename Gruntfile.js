@@ -29,7 +29,6 @@ module.exports = grunt => {
           output: {
             max_line_len: 32000,
           },
-          ie8: true,
           sourceMap: true,
           banner,
         },
