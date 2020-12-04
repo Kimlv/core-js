@@ -12,5 +12,5 @@ var USES_TO_LENGTH = arrayMethodUsesToLength('some');
 $({ target: 'Array', proto: true, forced: !STRICT_METHOD || !USES_TO_LENGTH }, {
   some: function some(callbackfn /* , thisArg */) {
     return $some(this, callbackfn, arguments.length > 1 ? arguments[1] : undefined);
-  }
+  },
 });

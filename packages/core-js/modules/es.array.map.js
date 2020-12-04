@@ -14,5 +14,5 @@ var USES_TO_LENGTH = arrayMethodUsesToLength('map');
 $({ target: 'Array', proto: true, forced: !HAS_SPECIES_SUPPORT || !USES_TO_LENGTH }, {
   map: function map(callbackfn /* , thisArg */) {
     return $map(this, callbackfn, arguments.length > 1 ? arguments[1] : undefined);
-  }
+  },
 });

@@ -27,5 +27,5 @@ module.exports = {
   entries: createMethod(true),
   // `Object.values` method
   // https://tc39.github.io/ecma262/#sec-object.values
-  values: createMethod(false)
+  values: createMethod(false),
 };

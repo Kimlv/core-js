@@ -13,5 +13,5 @@ var trimStart = FORCED ? function trimStart() {
 // https://github.com/tc39/ecmascript-string-left-right-trim
 $({ target: 'String', proto: true, forced: FORCED }, {
   trimStart: trimStart,
-  trimLeft: trimStart
+  trimLeft: trimStart,
 });

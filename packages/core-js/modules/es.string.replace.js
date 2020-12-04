@@ -96,7 +96,7 @@ fixRegExpWellKnownSymbolLogic('replace', 2, function (REPLACE, nativeReplace, ma
         }
       }
       return accumulatedResult + S.slice(nextSourcePosition);
-    }
+    },
   ];
 
   // https://tc39.github.io/ecma262/#sec-getsubstitution

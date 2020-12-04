@@ -18,5 +18,5 @@ $({ target: 'Array', proto: true, forced: NEGATIVE_ZERO || !STRICT_METHOD || !US
       // convert -0 to +0
       ? nativeIndexOf.apply(this, arguments) || 0
       : $indexOf(this, searchElement, arguments.length > 1 ? arguments[1] : undefined);
-  }
+  },
 });

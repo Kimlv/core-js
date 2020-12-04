@@ -15,6 +15,6 @@ if (UNSUPPORTED_Y) {
         return !!getInternalState(this).sticky;
       }
       throw TypeError('Incompatible receiver, RegExp required');
-    }
+    },
   });
 }

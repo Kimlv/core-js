@@ -46,5 +46,5 @@ $({ target: 'String', proto: true }, {
       result += template[index];
     }
     return result;
-  }
+  },
 });

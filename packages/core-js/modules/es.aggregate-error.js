@@ -22,9 +22,9 @@ var $AggregateError = function AggregateError(errors, message) {
 $AggregateError.prototype = Object.create(Error.prototype, {
   constructor: createPropertyDescriptor(5, $AggregateError),
   message: createPropertyDescriptor(5, ''),
-  name: createPropertyDescriptor(5, 'AggregateError')
+  name: createPropertyDescriptor(5, 'AggregateError'),
 });
 
 $({ global: true }, {
-  AggregateError: $AggregateError
+  AggregateError: $AggregateError,
 });

@@ -14,5 +14,5 @@ var USES_TO_LENGTH = arrayMethodUsesToLength('filter');
 $({ target: 'Array', proto: true, forced: !HAS_SPECIES_SUPPORT || !USES_TO_LENGTH }, {
   filter: function filter(callbackfn /* , thisArg */) {
     return $filter(this, callbackfn, arguments.length > 1 ? arguments[1] : undefined);
-  }
+  },
 });
