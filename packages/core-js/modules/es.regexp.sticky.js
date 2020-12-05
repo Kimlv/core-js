@@ -1,11 +1,11 @@
 var UNSUPPORTED_Y = require('../internals/regexp-sticky-helpers').UNSUPPORTED_Y;
-var defineProperty = require('../internals/object-define-property').f;
 var getInternalState = require('../internals/internal-state').get;
+
 var RegExpPrototype = RegExp.prototype;
 
 // `RegExp.prototype.sticky` getter
 if (UNSUPPORTED_Y) {
-  defineProperty(RegExp.prototype, 'sticky', {
+  Object.defineProperty(RegExp.prototype, 'sticky', {
     configurable: true,
     get: function () {
       if (this === RegExpPrototype) return undefined;
