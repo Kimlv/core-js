@@ -20,7 +20,7 @@ module.exports = {
       },
     },
     node: false,
-    target: ['web', 'es3'],
+    target: ['node', 'es5'],
     stats: 'errors-warnings',
     output: {
       path: resolve(__dirname, './tests/bundles'),
