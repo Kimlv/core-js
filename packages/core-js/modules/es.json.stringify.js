@@ -20,13 +20,11 @@ var FORCED = fails(function () {
     || $stringify('\uDEAD') !== '"\\udead"';
 });
 
-if ($stringify) {
-  // https://github.com/tc39/proposal-well-formed-stringify
-  $({ target: 'JSON', stat: true, forced: FORCED }, {
-    // eslint-disable-next-line no-unused-vars
-    stringify: function stringify(it, replacer, space) {
-      var result = $stringify.apply(null, arguments);
-      return typeof result == 'string' ? result.replace(re, fix) : result;
-    },
-  });
-}
+// https://github.com/tc39/proposal-well-formed-stringify
+$({ target: 'JSON', stat: true, forced: FORCED }, {
+  // eslint-disable-next-line no-unused-vars
+  stringify: function stringify(it, replacer, space) {
+    var result = $stringify.apply(null, arguments);
+    return typeof result == 'string' ? result.replace(re, fix) : result;
+  },
+});
