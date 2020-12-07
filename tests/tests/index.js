@@ -296,7 +296,6 @@ import './esnext.string.code-points';
 import './esnext.symbol.async-dispose';
 import './esnext.symbol.dispose';
 import './esnext.symbol.observable';
-import './esnext.symbol.pattern-match';
 import './esnext.typed-array.at';
 import './esnext.typed-array.filter-out';
 import './esnext.weak-map.delete-all';
